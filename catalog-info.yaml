@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sat-app-50
+  description: A sample Python sat-app-50 application
+  annotations:
+    github.com/project-slug: mr-jarek/sat-app-50
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: development

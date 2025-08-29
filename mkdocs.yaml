@@ -1,0 +1,12 @@
+site_name: 'sat-app-50'
+site_description: 'Main documentation for the sat-app-50 project'
+repo_url: https://github.com/mr-jarek/sat-app-50
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
